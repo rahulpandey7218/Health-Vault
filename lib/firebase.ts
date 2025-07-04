@@ -1,32 +1,3 @@
-// import { initializeApp, getApps } from "firebase/app"
-// import { getAuth } from "firebase/auth"
-// import { getFirestore } from "firebase/firestore"
-
-// const firebaseConfig = {
-//   apiKey: "AIzaSyCwzo81MeRJcBkki11Pn2V6Up8jvTtbfbo",
-//   authDomain: "health--vault.firebaseapp.com",
-//   projectId: "health--vault",
-//   storageBucket: "health--vault.firebasestorage.app",
-//   messagingSenderId: "25091872315",
-//   appId: "1:25091872315:web:f700ae0e2cfde4f054ae1e",
-//   measurementId: "G-778YDNNX5M",
-// }
-
-// // Initialize Firebase only if no apps exist
-// let app
-// if (!getApps().length) {
-//   app = initializeApp(firebaseConfig)
-// } else {
-//   app = getApps()[0]
-// }
-
-// // Initialize services
-// export const auth = getAuth(app)
-// export const db = getFirestore(app)
-
-// export default app
-
-
 import { initializeApp, getApps } from "firebase/app"
 import { getAuth } from "firebase/auth"
 import { getFirestore } from "firebase/firestore"
